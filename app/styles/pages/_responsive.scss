@@ -1,0 +1,32 @@
+@media screen and (max-width: 710px) {
+
+	body {
+		width: 100%;
+		overflow: inherit;
+	}
+
+	* {
+		box-sizing: border-box;
+	}
+
+	body {
+		width: 100%;
+		overflow-x: hidden;
+	}
+
+	img.logo {
+		width: 50% !important; 
+		margin: 60px 0 20px !important; 
+	}
+
+	#signUp {
+		height: auto;
+		background-color: $brandRed;
+		color: $white;
+		padding: 5%;
+		position: inherit;
+		margin-top: 50px
+	}
+
+}
+
